@@ -101,7 +101,7 @@ Line(slope, intercept)
    ```python
    from coordinate import Coordinate, Line
 
-### Here's a complete example demonstrating the usage of the Coordinate and Line classes:
+### Here's a complete example demonstrating the usage of the Coordinate and Line classes with the appropriate comments:
 ```python
 from coordinate import Coordinate, Line
 
