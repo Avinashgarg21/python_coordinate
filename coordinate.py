@@ -44,9 +44,6 @@ class Coordinate:
         midpoint_y = (self.y + other.y) / 2
         return Coordinate(midpoint_x, midpoint_y)
 
-    def angle_to(self, other):
-        angle = math.atan2(other.y - self.y, other.x - self.x)
-        return math.degrees(angle)
 
     @staticmethod
     def intersection_of_lines(line1, line2):
