@@ -26,7 +26,7 @@ class Coordinate:
         d1 = p1.distance_to_point(p2)
         d2 = p1.distance_to_point(p3)
         d3 = p2.distance_to_point(p3)
-        return math.isclose(d1, d2) and math.isclose(d1, d3)
+        return math.isclose(d1, d2) and math.isclose(d1, d3) and math.isclose(d2, d3)
 
     @staticmethod
     def centroid_of_triangle(p1, p2, p3):
